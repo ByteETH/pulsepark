@@ -56,13 +56,13 @@ export default function Navbar(){
             <Link href={router.pathname == "/" ? "#section5" : "/#section5"}><span>Stake</span></Link>
           </div>
 
-          <div className="rightSideMobile" onClick={n}>
+          {/* <div className="rightSideMobile" onClick={n}>
             {openMobileMenu ? (
               <MdMenu color="white" size="35" />
             ) : (
               <MdMenuOpen color="white" size="35" />
             )}
-          </div>
+          </div> */}
         </div>
 
         <style jsx>{`

@@ -18,7 +18,7 @@ export default function Footer() {
             ></path>
           </svg>
         </div>
-
+        <div className='footerImage'><Image src='/team/64.png' alt='' width='150' height='260'/></div>
         <div className="title">
           <span>The SEC is my bitch</span>
         </div>
@@ -59,6 +59,7 @@ export default function Footer() {
           position: relative;
           text-align: center;
           padding-bottom: 30px;
+          padding-top: 160px;
         }
 
         .footerContainer::before {
@@ -74,10 +75,18 @@ export default function Footer() {
           background-color: rgba(0, 0, 0, 0.8);
         }
 
+        .footerImage{
+          z-index: 1;
+          position: absolute;
+          top: 100px;
+          margin: auto;
+          left: -20px;
+          right: 0;
+        }
+
         .customShapeDividerTopFirstSection {
           position: absolute;
           top: 0;
-          left: -10px;
           width: 100%;
           overflow: hidden;
           line-height: 0;
@@ -96,7 +105,7 @@ export default function Footer() {
         }
 
         .title {
-          z-index: 1;
+          z-index: 2;
           margin-top: 130px;
         }
 
@@ -110,6 +119,7 @@ export default function Footer() {
           align-items: center;
           justify-content: center;
           gap: 15px;
+          z-index: 2;
         }
 
         .name span {
