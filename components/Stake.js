@@ -15,7 +15,7 @@ export default function StakeSection({ id }) {
         </Slide>
 
         <div className='stakeBox'>
-          <div className='titleBox'><span>{`00.0% (APY) - 0.0% Daily Earnings`}</span></div>
+          <div className='titleBox'><span>{`COMING SOON`}</span></div>
           <input />
           <div className='stakeButtons'>
             <div className='lb'>
@@ -188,6 +188,8 @@ export default function StakeSection({ id }) {
           font-size: 1.2rem;
           padding: 0px 10px;
           background-color: transparent;
+          font-family: var(--Archivo);
+          color: white;
         }
 
         .claimButtons button:hover{

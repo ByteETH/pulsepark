@@ -112,6 +112,7 @@ export default function Footer() {
         .title span{
           font-size: 2rem;
           font-family: var(--Archivo);
+          color: white;
         }
 
         .name {
