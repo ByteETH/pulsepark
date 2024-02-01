@@ -142,7 +142,7 @@ export default function ThirdSection({ id }) {
         </div>
         <div className='disclaimerContainer'>
           <span>Disclaimer</span>
-          <span>The individuals mentioned in this context are not affiliated with the team. This meme is all about fun, support, and positive vibes that we are all part of, if by chance you happen to be offender then you most likely suck.</span>
+          <span>The individuals mentioned in this context are not affiliated with the team. This meme is all about fun, support, and positive vibes that we are all part of, if by chance you happen to be offended then you most likely suck.</span>
         </div>
       </div>
 

@@ -15,9 +15,11 @@ export default function MainScreen({id}) {
         </div>
         <div className="socialsContainer">
           <Slide direction="up" duration="600" cascade>
+            <a href='https://t.me/PulseTrailerPark' target="_BLANK" rel='noreferrer'>
             <div className="circle c1">
               <Image src="/tg.png" width="40" height="40" alt="" />
             </div>
+            </a>
             <a href='https://twitter.com/plstrailerpark' target="_BLANK" rel='noreferrer'>
             <div className="circle c2">
               <Image src="/x.png" width="50" height="50" alt="" />

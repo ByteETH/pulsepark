@@ -31,9 +31,11 @@ export default function Footer() {
         </div>
 
         <div className="socialsContainer">
+            <a href='https://t.me/PulseTrailerPark' target="_BLANK" rel='noreferrer'>
             <div className="circle c1">
               <Image src="/tg.png" width="30" height="30" alt="" />
             </div>
+            </a>
             <a href='https://twitter.com/plstrailerpark' target="_BLANK" rel='noreferrer'>
             <div className="circle c2">
               <Image src="/x.png" width="40" height="40" alt="" />
