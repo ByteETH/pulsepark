@@ -18,7 +18,7 @@ export default function Footer() {
             ></path>
           </svg>
         </div>
-        <div className='footerImage'><Image src='/team/64.png' alt='' width='150' height='260'/></div>
+        <div className='footerImage'><Image src='/team/64.png' alt='' width='150' height='300'/></div>
         <div className="title">
           <span>The SEC is my bitch</span>
         </div>
