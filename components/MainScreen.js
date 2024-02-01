@@ -18,9 +18,11 @@ export default function MainScreen({id}) {
             <div className="circle c1">
               <Image src="/tg.png" width="40" height="40" alt="" />
             </div>
+            <a href='https://twitter.com/plstrailerpark' target="_BLANK" rel='noreferrer'>
             <div className="circle c2">
               <Image src="/x.png" width="50" height="50" alt="" />
             </div>
+            </a>
             <div className="circle c3">
               <Image src="/dx.png" width="35" height="40" alt="" />
             </div>

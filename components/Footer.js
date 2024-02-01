@@ -34,9 +34,11 @@ export default function Footer() {
             <div className="circle c1">
               <Image src="/tg.png" width="30" height="30" alt="" />
             </div>
+            <a href='https://twitter.com/plstrailerpark' target="_BLANK" rel='noreferrer'>
             <div className="circle c2">
               <Image src="/x.png" width="40" height="40" alt="" />
             </div>
+            </a>
             <div className="circle c3">
               <Image src="/dx.png" width="25" height="30" alt="" />
             </div>
