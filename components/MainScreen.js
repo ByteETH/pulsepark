@@ -20,14 +20,16 @@ export default function MainScreen({id}) {
               <Image src="/tg.png" width="40" height="40" alt="" />
             </div>
             </a>
-            <a href='https://twitter.com/plstrailerpark' target="_BLANK" rel='noreferrer'>
+            <a href='http://x.com/plstrailerpark' target="_BLANK" rel='noreferrer'>
             <div className="circle c2">
               <Image src="/x.png" width="50" height="50" alt="" />
             </div>
             </a>
+            <a href='https://www.dextools.io/app/en/pulse/pair-explorer/0xb8efccb3fa5d4bc68524989173dc603e1acc0362?t=1707843119896' target="_BLANK" rel='noreferrer'>
             <div className="circle c3">
               <Image src="/dx.png" width="35" height="40" alt="" />
             </div>
+            </a>
           </Slide>
         </div>
         <div className="arrow">

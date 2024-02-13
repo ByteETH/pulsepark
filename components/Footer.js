@@ -41,9 +41,11 @@ export default function Footer() {
               <Image src="/x.png" width="40" height="40" alt="" />
             </div>
             </a>
+            <a href='https://www.dextools.io/app/en/pulse/pair-explorer/0xb8efccb3fa5d4bc68524989173dc603e1acc0362?t=1707843119896' target="_BLANK" rel='noreferrer'>
             <div className="circle c3">
               <Image src="/dx.png" width="25" height="30" alt="" />
             </div>
+            </a>
         </div>
         <div className='copy'>Copyright 2024. All Right Reserved.<span></span></div>
       </div>
