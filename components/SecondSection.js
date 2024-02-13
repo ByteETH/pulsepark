@@ -17,7 +17,7 @@ export default function SecondSection({id}) {
           </div>
           <div className="rightSideTkn">
             <div className="boxTxt">
-              <span>Total Supply: 555,555,555</span>
+              <span>Total Supply: 555,555,555,555,555</span>
             </div>
             <div className="boxTxt">
               <span>Chain: PULSECHAIN</span>
@@ -26,9 +26,9 @@ export default function SecondSection({id}) {
               <span>Symbol: $PTP</span>
             </div>
             <div className="boxTxt lastBox">
-              <span>Total Supply: 555,555,555</span>
-              <span>90% Liquidity</span>
-              <span>10% CEX Listing Fees</span>
+              <span>Total Supply: 555,555,555,555,555</span>
+              <span>70% Liquidity Pool</span>
+              <span>30% Team/Partnerships (Locked)</span>
             </div>
           </div>
         </div>
@@ -38,28 +38,28 @@ export default function SecondSection({id}) {
         <div className="addInfoContainer">
           <div className="rowInfo">
             <div className="rowLeft">
-              <span>1% TAX</span>
+              <span>0/5 TAX</span>
             </div>
             <div className="rowRight">
-              <span>{`Tax funds will be used to support the chart through buybacks and marketing`}</span>
+              <span>{`Taxes go to a wallet that you should have no expectations from`}</span>
             </div>
           </div>
 
           <div className="rowInfo">
             <div className="rowLeft">
-              <span>90% SUPPLY</span>
+              <span>70% SUPPLY</span>
             </div>
             <div className="rowRight">
-              <span>{`90% of the circulating tokens were sent to the liquidity pool`}</span>
+              <span>{`70% of the circulating tokens were sent to the liquidity pool`}</span>
             </div>
           </div>
 
           <div className="rowInfo lastRow">
             <div className="rowLeft">
-              <span>10% Remaining</span>
+              <span>30% Partnerships/Team</span>
             </div>
             <div className="rowRight">
-              <span>{`The remaining 10% of the supply is being held in a secure wallet only to be used for future opportunities that will benefit the community`}</span>
+              <span>{`30% of the supply is being held in a secure wallet only to be used for future opportunities that will benefit the community`}</span>
             </div>
           </div>
         </div>
