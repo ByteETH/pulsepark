@@ -25,7 +25,7 @@ export default function FirstSection({id}) {
         <Slide direction="right" duration='800'>
         <div className='descBottom'>
           <div className='leftSideBottom'>
-            <span>{`Our goal is simple: to be the first meme coin on Pulsechain, that our entire community can all rally behind. Sure we tend to get under each others skin from time to time. But in the end we will always have eachothers back and enjoy our successes togehter as a community.`}</span>
+            <span>{`Our goal is simple: to be the first meme coin on Pulsechain, that our entire community can all rally behind. Sure we tend to get under each others skin from time to time. But in the end we will always have each others back and enjoy our successes together as a community.`}</span>
             <span>{`So yes its true, we are a trailer park. The most balling trailer park in all of crypto!`}</span>
           </div>
           <div className='rightSideBottom'><div className='imgContainer'><Image src='/about2.png' fill='responsive' alt=''/></div></div>

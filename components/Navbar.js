@@ -52,7 +52,7 @@ export default function Navbar(){
             <Link href={router.pathname == "/" ? "#section1" : "/#section1"}><span>Home</span></Link>
             <Link href={router.pathname == "/" ? "#section2" : "/#section2"}><span>About us</span></Link>
             <Link href={router.pathname == "/" ? "#section3" : "/#section3"}><span>Tokenomics</span></Link>
-            <Link href={router.pathname == "/" ? "#section4" : "/#section4"}><span>Our community</span></Link>
+            <Link href={router.pathname == "/" ? "#section4" : "/#section4"}><span>Community</span></Link>
             <Link href={router.pathname == "/" ? "#section5" : "/#section5"}><span>Stake</span></Link>
           </div>
 

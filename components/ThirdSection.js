@@ -140,16 +140,12 @@ export default function ThirdSection({ id }) {
           </Slider>
           </div>
         </div>
-        <div className='disclaimerContainer'>
-          <span>Disclaimer</span>
-          <span>The individuals mentioned in this context are not affiliated with the team. This meme is all about fun, support, and positive vibes that we are all part of, if by chance you happen to be offended then you most likely suck.</span>
-        </div>
       </div>
 
       <style jsx>{`
         .thrdSection {
           width: 100%;
-          min-height: 100vh;
+          min-height: 90vh;
           background-image: linear-gradient(90deg, #782CFB, #2895FE 50%);
           z-index: 1;
           text-align: center;
@@ -172,7 +168,7 @@ export default function ThirdSection({ id }) {
         .carrouselContainer {
           width: 100%;
           height: min-content;
-          margin-top: 100px;
+          margin-top: 150px;
           display: flex;
           align-items: center;
           justify-content: center;
