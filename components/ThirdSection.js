@@ -131,7 +131,7 @@ export default function ThirdSection({ id }) {
     <>
       <div className="thrdSection" id={id}>
           <div className="title">
-            <span>OUR TEAM</span>
+            <span>OUR COMMUNITY</span>
           </div>
         <div className="carrouselContainer">
           <div className="carrouselAlign">
