@@ -231,10 +231,11 @@ export default function SecondSection({id}) {
           .rowInfo .rowLeft {
             width: 100%;
             justify-content: center;
+            font-size: 1.5rem;
           }
 
           .rowInfo .rowRight {
-            width: 80%;
+            width: 90%;
             justify-content: center;
             background-color: transparent;
             text-align: center !important;

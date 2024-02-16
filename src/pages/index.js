@@ -69,6 +69,7 @@ export default function Home() {
         align-items: center;
         justify-content: center;
         flex-direction: column;
+        scroll-behavior: smooth !important;
       }
 
       `}</style>
