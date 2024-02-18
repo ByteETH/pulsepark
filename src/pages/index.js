@@ -11,6 +11,7 @@ import PlayMusic from "../../components/PlayMusic";
 import StakeSection from "../../components/Stake";
 import Footer from "../../components/Footer";
 import Designed from "../../components/Designed";
+import BuySection from "../../components/BuySection";
 
 const archivo = Titan_One({
   weight: '400',
@@ -53,6 +54,7 @@ export default function Home() {
         <FirstSection id={'section2'}/>
         <SecondSection id='section3'/>
         <ThirdSection id='section4'/>
+        <BuySection />
         <StakeSection id='section5'/>
         <PlayMusic audioStarted={audioStarted} setAudio={setAudioStarted}/>
         <Footer />
