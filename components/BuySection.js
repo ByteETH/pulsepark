@@ -1,8 +1,8 @@
-export default function BuySection(){
+export default function BuySection({id}){
   return(
     <>
     
-    <div className='buyContainer'>
+    <div className='buyContainer' id={id}>
       <div className='title'><span>Join the Trailer Park TODAY!</span></div>
       <div className='subtitle'><span>Buy $PTP</span></div>
       <div className='buyBox'>

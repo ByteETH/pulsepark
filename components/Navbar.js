@@ -54,6 +54,7 @@ export default function Navbar(){
             <Link href={router.pathname == "/" ? "#section3" : "/#section3"}><span>Tokenomics</span></Link>
             <Link href={router.pathname == "/" ? "#section4" : "/#section4"}><span>Community</span></Link>
             <Link href={router.pathname == "/" ? "#section5" : "/#section5"}><span>Stake</span></Link>
+            <Link href={router.pathname == "/" ? "#section6" : "/#section6"}><span>Buy</span></Link>
           </div>
 
           {/* <div className="rightSideMobile" onClick={n}>

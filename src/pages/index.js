@@ -54,7 +54,7 @@ export default function Home() {
         <FirstSection id={'section2'}/>
         <SecondSection id='section3'/>
         <ThirdSection id='section4'/>
-        <BuySection />
+        <BuySection id='section6'/>
         <StakeSection id='section5'/>
         <PlayMusic audioStarted={audioStarted} setAudio={setAudioStarted}/>
         <Footer />
