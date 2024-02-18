@@ -82,6 +82,18 @@ export default function BuySection(){
           font-size: 2rem;
         }
       }
+
+      @media screen and (max-width: 500px){
+        .buyBox{
+          width: 400px;
+        }
+      }
+
+      @media screen and (max-width: 400px){
+        .buyBox{
+          width: 350px;
+        }
+      }
     `}</style>
     </>
   )
