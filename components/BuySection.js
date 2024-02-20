@@ -7,7 +7,7 @@ export default function BuySection({id}){
       <div className='subtitle'><span>Buy $PTP</span></div>
       <div className='buyBox'>
           <iframe
-              src="https://gopulse.com/x/embed?out=PTP"
+              src="https://gopulse.com/x/embed?out=PTP&r=YOUR_PULSECHAIN_ADDRESS_HERE"
               title="GoPulse Swap Widget"
               width="100%"
               height="450px"
